@@ -1,2 +1,2 @@
-# frontface
+# vedulabs-frontface
 VEduLabs Project Website

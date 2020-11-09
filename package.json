@@ -1,0 +1,41 @@
+{
+  "name": "vedulabs-frontface",
+  "version": "0.0.1",
+  "description": "VEduLabs Front Face",
+  "main": "./public/js/vedulabs-ff.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch & webpack-dev-server --hot --progress",
+    "watch": "webpack --watch",
+    "server": "webpack-dev-server"
+  },
+  "keywords": [
+    "webgl",
+    "3d web",
+    "threejs",
+    "web game engine",
+    "web game framework",
+    "web-base graphics framework node editor"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vedulabs/vedulabs-frontface.git"
+  },
+  "author": "vedulabs.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "optionalDependencies": {
+    "fsevents": "^2.1.2"
+  },
+  "dependencies": {
+    "clean": "^4.0.2"
+  }
+}

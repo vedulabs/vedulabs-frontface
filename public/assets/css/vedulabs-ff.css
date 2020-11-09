@@ -1,0 +1,47 @@
+#homeLogo {
+    height: 60px;
+    background-image: url("images/vedulabs.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#heading {
+    position: absolute;
+    height: 80vh;
+    top: 0;
+    background-attachment: fixed;
+    background-image: url("images/heading_bg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.borderRed {
+    border: solid 1px red;
+}
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.fullHeight {
+    height: 100% !important;
+}
+
+.verticalFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.flexExpander {
+    flex-grow: 1 !important;
+}
+
+.flexExpander075 {
+    flex-grow: 0.75 !important;
+}
+
+.flexJustifyCenter {
+    justify-content: center !important;
+}
